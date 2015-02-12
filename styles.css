@@ -1,15 +1,7 @@
-/** Styles for Guess the Synthax**/
-/** Author: Yeng **/
-/**Colors
-	#102026
-	#025E73
-	#026773
-	#569EA6
-	#A3BFBF
-*****/
+/** Styles for Happy Website **/
 
 body{
-	background-color: #242424;
+	background-color: #fff;
 }
 
 #header{
@@ -17,49 +9,30 @@ body{
 	text-align: center;
 }
 
-#header h1{
-	color: #fff;
+#main-content{
+
+	background-color: gray;
 }
 
-#tilesContent{
-/*	width: 100%;
-*/	background: #026773;
+.text-section{
+/*	display: inline;
+*/	
+	float: left;
+	width: 300px;
+	padding: 10px;
+	border: 3px solid green;
 }
 
-.cardContent{
-	max-width: 560px;
-	background-color: #026773;
-	margin: auto;
-}
-
-
-.card{
-	background-color: #A3BFBF; /*Fall Back Color*/
-	background-size: 50% 50%;
-
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
-
-	border: 3px solid red;
-	display: inline-block;
-	padding: 60px 30px;
-	margin: 10px;
+.type-section{
+/*	display: inline;
+*/	float: right;
+	width: 850px;
+	border: 3px solid green;
 
 }
 
-.pcContent{
-	padding: 15px;
+textarea{
+	width: 800px;
+	height: 900px;
 }
 
-
-#playerCard{
-	border: 3px solid red;
-	max-width: 160px;
-	background-color: #569EA6;
-	margin: auto;
-	padding: 120px 40px;
-}
-
-#playerCard h1{
-	color: #fff;
-}
