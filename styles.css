@@ -4,30 +4,75 @@ body{
 	background-color: #fff;
 }
 
+h1{
+	font: 24px/30px sans-serif;
+}
+
 #header{
 	width: 100%;
 	text-align: center;
 }
 
-#main-content{
+#nav{
+	background-color: red;
+}
 
+#nav ul{
+	text-align: right;
+	padding: 10px;
+}
+
+#nav ul li{
+	display: inline;
+	margin-right: 10px;
+}
+
+#slider{
+	background-color: gray;
+	text-align: center;
+}
+
+.pic{
+	padding: 30px;
+	background-color: red;
+	margin: 30px;
+	display: inline-block;
+	width: 75px;
+	height: 125px;
+}
+
+#postsContent{
+	background-color: green;
+	text-align: center;
+}
+
+.posts{
+	padding: 30px;
+	margin: 30px;
+	display: inline-block;
+	width: 75px;
+	height: 125px;
+}
+
+
+#uploadButton{
+	display: block;
+	padding: 30px 80px;
+	background-color: purple;
+	margin: auto;
+}
+
+#main-content{
+	margin: 10px;
 	background-color: gray;
 }
 
 .text-section{
-/*	display: inline;
-*/	
-	float: left;
-	width: 300px;
-	padding: 10px;
-	border: 3px solid green;
+
 }
 
 .type-section{
-/*	display: inline;
-*/	float: right;
-	width: 850px;
-	border: 3px solid green;
+
 
 }
 
